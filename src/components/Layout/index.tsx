@@ -14,6 +14,6 @@ const Layout: React.FC = () => {
       </Wrapper>
     </Container>
   );
-}
+};
 
 export default Layout;

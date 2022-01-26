@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, BackIcon, ProfileInfo } from '../Layout/styles';
+import { Container, Header, BackIcon, ProfileInfo } from './styles';
 
 // import { Container } from './styles';
 
@@ -19,14 +19,14 @@ const Main: React.FC = () => {
 
       {/* <ProfilePage /> */}
 
-      <ButtonMenu>
+      {/* <ButtonMenu>
         <HomeIcon />
         <SearchIcon />
         <BellIcon />
         <EmailIcon />
-      </ButtonMenu>
+      </ButtonMenu> */}
     </Container>
   );
-}
+};
 
 export default Main;
